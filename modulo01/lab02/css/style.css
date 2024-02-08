@@ -1,0 +1,23 @@
+h1 {
+    color: lightcoral;
+    background-color: lightblue;
+    padding: 20px;
+    border: 4px dotted blue; 
+}
+body{
+    background-color: azure;
+}
+p {
+    background-color: aquamarine;
+    padding: 20px 30px;
+}
+#inventario {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+    border-bottom: 1px solid red;
+}
+.especial {
+    color:blue;
+    font-weight: bold;
+    font-style: italic;
+}
