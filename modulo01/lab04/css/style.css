@@ -1,0 +1,53 @@
+body {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "main aside"
+        "footer footer";
+    grid-template-columns: 1fr 300px;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+header, article, aside, footer {
+    padding: 20px;
+    background-color: lightgray;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    flex: 1;
+    grid-area: main;
+}
+
+aside {
+    grid-area: aside;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/* Hacemos el sitio web responsivo */
+@media (max-width: 768px) {
+    body {
+        grid-template-areas:
+            "header"
+            "main"
+            "aside"
+            "footer";
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        flex-direction: column;
+    }
+}
