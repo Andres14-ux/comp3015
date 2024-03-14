@@ -4,25 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 <body>
-    <header>
+    <div class="container-full">
+    
+    <header class="row">
+        <div class="col bg-danger bg-gradient text-center text-white p-5">
         <h1>Bienvenidos a BigStar</h1>
-        <p>Nuestra misión es compartir musica con el mundo entero a traves de una app.</p>
-        <img src ="./Images/star.jpg" alt = "Star picture">
+        <p>Nuestra misión es compartir musica con el mundo a traves de una app.</p>
+        <img src ="./Images/star.jpg" class="img-thumbnail" alt="Star logo">
+        </div>
     </header>
-    <section id="acerca-de">
-        <h2>Acerca de Nosotros</h2>
-        <p>El proposito principal de esta app es poder publicar todo tipo de musica que se pueda crear. Cualquier persona puede realizar y componer musica en esta app, hasta puedes cantarlas en vivo.</p>
+
+    <section>
+        <div class="p-3 mb-2 bg-secondary text-white">
+        <h2>Acerca de Nosotros</h2> 
+        <div class="row g-0 text center">
+            <p class="text-center">El proposito principal de esta app es poder publicar todo tipo de musica que se pueda crear. Cualquier persona puede realizar y componer musica en esta app, hasta puedes cantarlas en vivo.</p>
+        </div>
     </section>
-    <section id="como-ayudar">
+
+    <div class="p-3 mb-2 bg-secondary text-white">
         <h2>Cómo Puedes Ayudar</h2>
-        <p>Pueden ayudar bajando la app en sus celulares esta disponible para Apple y Android. Con sus feedbacks podremos mejorar la app.</p>
-    </section>
+        <p class="text-center">Pueden ayudar bajando la app en sus celulares esta disponible para Apple y Android. Con sus feedbacks podremos mejorar la app.</p>
+    </div>
     <footer>
-        <p>Contacto: Andres Tosado -(787) 290-0765 -BigStar@gmail.com
-        </p>
+        <div class="p-3 mb-2 bg-secondary text-white">
+        <p class="text-center fst-italic fs-5 p-5">Andres Tosado -(787) 290-0765 -BigStar@gmail.com.</p>
+    </div>
     </footer>
 </body>
 </html>
