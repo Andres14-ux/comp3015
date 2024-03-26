@@ -16,21 +16,25 @@
     <form action="manejarDatos.php" method="post">
         Username:
         <input type="text" name="nombre" value="" placeholder="Your name here" />
-        <br /> 
+        <br> 
         Password:
         <input type="password" name="clave" value="" placeholder="Your password here"  />
-        <br />
+        <br>
         <input type="checkbox" name="fruta[]" id="manzana" value="apple">
         <label for="manzana">manzana</label>
         <input type="checkbox" name="fruta[]" id="pera" value="pear">
         <label for="pera">pera</label>
         <input type="checkbox" name="fruta[]" id="guineo" value="banana">
         <label for="guineo">guineo</label>
-        <br />
-        <input type="radio" name="radio" id="masculino" value="masculino" />
-        <label for="masculino">Hombre</label>
-        <input type="radio" name="radio" id="femenino" value="femenino" />
-        <label for="femenino">Mujer</label>
+        <br>
+        <fieldset class="border rounded p-2 mt-4 mb-4 d-inline-block">
+         <input type="radio" name="radio" id="masculino" value="masculino" />
+         <label for="masculino">Hombre</label>
+         <input type="radio" name="radio" id="femenino" value="femenino" />
+         <label for="femenino">Mujer</label>
+        </fieldset>
+        <br>
+        <input type="file" name="archivo" />
         <br>
        <input type="submit" class="btn btn-primary" value="Enviar" />
       </form>
