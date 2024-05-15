@@ -5,8 +5,8 @@ require_once './app/config/Database.php';
 require_once './app/models/UserModel.php';
 require_once './app/controllers/UserController.php';
 
-require_once './app/models/UserModel.php';
-require_once './app/controllers/UserController.php';
+require_once './app/models/SupplierModel.php';
+require_once './app/controllers/SupplierController.php';
 
 require_once './app/models/ProductModel.php';
 require_once './app/controllers/ProductController.php';
